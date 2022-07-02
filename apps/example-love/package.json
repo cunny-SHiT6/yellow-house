@@ -1,0 +1,19 @@
+{
+  "name": "example-love",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6",
+    "vite-plugin-windicss": "^1.8.4"
+  },
+  "dependencies": {
+    "solid-js": "^1.4.2"
+  }
+}
