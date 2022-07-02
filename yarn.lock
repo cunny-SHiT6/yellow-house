@@ -603,7 +603,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yellow-house/tsconfig@workspace:packages/tsconfig":
+"@yellow-house/tsconfig@npm:*, @yellow-house/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@yellow-house/tsconfig@workspace:packages/tsconfig"
   languageName: unknown
@@ -1555,6 +1555,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-love@workspace:apps/example-love"
   dependencies:
+    "@yellow-house/tsconfig": "npm:*"
     solid-js: "npm:^1.4.2"
     typescript: "npm:^4.6.4"
     vite: "npm:^2.9.9"
