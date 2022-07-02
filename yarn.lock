@@ -603,6 +603,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yellow-house/tsconfig@workspace:packages/tsconfig":
+  version: 0.0.0-use.local
+  resolution: "@yellow-house/tsconfig@workspace:packages/tsconfig"
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
