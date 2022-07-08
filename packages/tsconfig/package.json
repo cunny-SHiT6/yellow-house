@@ -1,0 +1,10 @@
+{
+  "name": "@yellowhouse/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "server.json",
+    "base.json",
+    "web.json"
+  ]
+}

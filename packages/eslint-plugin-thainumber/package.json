@@ -1,0 +1,18 @@
+{
+  "name": "eslint-plugin-thainumber",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && swc src -d dist"
+  },
+  "devDependencies": {
+    "@swc/cli": "0.1.57",
+    "@swc/core": "1.2.208",
+    "@types/eslint": "^8.4.5",
+    "eslint": "^8.19.0",
+    "rimraf": "3.0.2"
+  }
+}

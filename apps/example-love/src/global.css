@@ -1,0 +1,24 @@
+@font-face {
+  font-family: rakChartHard;
+  src: url(/assets/TH\ Charm\ of\ AU.ttf);
+}
+
+@font-face {
+  font-family: rakChart-Normal;
+  src: url(/assets/TH\ Kodchasal.ttf);
+}
+
+@font-face {
+  font-family: rakChart-Bold;
+  src: url(/assets/TH\ Kodchasal\ Bold.ttf);
+}
+
+@font-face {
+  font-family: rakChart-Italic;
+  src: url(/assets/TH\ Kodchasal\ Italic.ttf);
+}
+
+@font-face {
+  font-family: rakChart-BoldItalic;
+  src: url(/assets/TH\ Kodchasal\ Bold\ Italic.ttf);
+}

@@ -1,0 +1,21 @@
+{
+  "module": {
+    "type": "commonjs"
+  },
+  "minify": true,
+  "env": {
+    "targets": {
+      "node": 16
+    }
+  },
+  "jsc": {
+    "baseUrl": "src",
+    "target": "es2019",
+    "minify": {
+      "compress": true
+    },
+    "parser": {
+      "syntax": "typescript"
+    }
+  }
+}

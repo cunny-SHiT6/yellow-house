@@ -1,0 +1,46 @@
+{
+  "name": "yellow-house",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "lib/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:server": "turbo run dev --filter=\"./apps/server\"",
+    "dev:example:love": "turbo run dev --filter=\"./apps/example-love\"",
+    "dev:example:notlove": "turbo run dev --filter=\"./apps/example-not-love\"",
+    "build": "turbo run build",
+    "build:package": "turbo run build --filter=\"./packages/*\"",
+    "lint": "eslint .",
+    "format": "prettier --write \"{apps,packages}/**/*.{js,jsx,ts,tsx,css}\""
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.208",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "dotenv-cli": "^5.1.0",
+    "eslint": "^8.19.0",
+    "eslint-plugin-thainumber": "*",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.8.1",
+    "turbo": "latest",
+    "typescript": "4.4.4"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@4.0.0-rc.11",
+  "dependencies": {
+    "canvas-confetti": "^1.5.1",
+    "cors": "^2.8.5"
+  }
+}

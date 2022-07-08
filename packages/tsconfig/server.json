@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "server",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "ESNext.AsyncIterable"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "extends": "./base.json"
+}

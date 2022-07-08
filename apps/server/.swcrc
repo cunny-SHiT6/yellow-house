@@ -1,0 +1,27 @@
+{
+  "module": {
+    "type": "commonjs"
+  },
+  "minify": true,
+  "env": {
+    "targets": {
+      "node": 16
+    }
+  },
+  "exclude": ["(.*).(spec|test).(j|t)s$"],
+  "jsc": {
+    "baseUrl": "src",
+    "target": "es2019",
+    "minify": {
+      "compress": true
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "paths": {
+    }
+  }
+}
